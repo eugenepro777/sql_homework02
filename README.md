@@ -19,21 +19,44 @@
 
 ---
 
-## 3. Создайте таблицу “orders”, заполните ее значениями.
+## 3. Создайте таблицу “orders”, заполните ее значениями
 
 ![Созданная таблица](create_orders.PNG "orders")
 
 ## Выберите все заказы. В зависимости от поля order_status выведите столбец full_order_status:
+
 **OPEN – «Order is in open state»;**
 
-**CLOSED - «Order is closed»;** 
+**CLOSED - «Order is closed»;**  
 
 **CANCELLED -  «Order is cancelled».**
 
 ![Пример решения](full_order_status.PNG "Полная информация о заказах")
 
-----
+---
 
 ## Дополнительное задание **
 
 **_Файл со скриптом прикреплен к материалам(interview.sql):_**
+
+![Таблица 1](users.PNG "users")
+
+![Таблица 2](clients.PNG "clients")
+
+![Таблица 3](posts.PNG "posts")
+
+## №1. Используя оператор ALTER TABLE, установите внешний ключ в одной из таблиц (clients-posts)
+
+![Пример решения](posts_with_foreign_key.PNG "FK_client_id")
+
+---
+
+## №2. Без оператора JOIN, верните заголовок публикации, текст с описанием, идентификатор клиента, опубликовавшего публикацию и логин данного клиента
+
+![Пример решения](all_clients_posts.PNG "clients_posts")
+
+---
+
+## №3. Выполните поиск по публикациям, автором которых является клиент "Mikle"
+
+![Пример решения](Mikle_posts.PNG "clients_posts")

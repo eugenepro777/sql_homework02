@@ -14,11 +14,11 @@
 
 ---
 
-## 3. Создайте таблицу “orders”, заполните ее значениями
-
-
+## 3. Создайте таблицу “orders”, заполните ее значениями.
 ## Выберите все заказы. В зависимости от поля order_status выведите столбец full_order_status:
-## OPEN – «Order is in open state»;
-## CLOSED - «Order is closed»; 
-## CANCELLED -  «Order is cancelled»
+**OPEN – «Order is in open state»;**
+
+**CLOSED - «Order is closed»;** 
+
+**CANCELLED -  «Order is cancelled».**
 
